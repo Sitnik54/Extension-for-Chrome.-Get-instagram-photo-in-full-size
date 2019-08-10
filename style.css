@@ -1,0 +1,27 @@
+body{
+    background-color:LightYellow;
+    height: 180px;
+    width: 200px;
+}
+h1 {
+    color:rgb(64,199,129);
+    text-align: center;
+}
+input {
+    text-align: center;
+}
+.button{
+    margin: 10px;
+    text-align: center; 
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 3px;
+    background: rgb(64,199,129);
+    box-shadow: 0 -3px rgb(53,167,110) inset;
+    transition: 0.2s;
+     }
+.center { 
+    text-align: center; 
+  }
