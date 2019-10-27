@@ -1,6 +1,6 @@
 function getUrlPhoto(){
     var getHtml = document.documentElement.outerHTML;
-    var pattern = /1080w" src="(https:.{20,310}.com)/;
+    var pattern = /1080w" src="(https:.{20,310}.cat=1)/;
     var fullSizeUrl = getHtml.match(pattern);
     return fullSizeUrl[1];
   }
